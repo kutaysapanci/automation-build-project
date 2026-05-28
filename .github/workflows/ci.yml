@@ -14,6 +14,10 @@ jobs:
       with:
         python-version: '3.10'
 
+    - name: Install Pytest
+      run: |
+        pip install pytest
+
     - name: Execute Tests
       run: |
-        python test_main.py
+        pytest
