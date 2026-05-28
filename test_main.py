@@ -1,4 +1,3 @@
-from main import calculate_sum
-
 def test_calculate_sum():
-    assert calculate_sum(2, 3) == 6
+    # Bu satır kodun direkt olarak hata verip durmasını sağlar
+    raise ValueError("Simulated Bug For Homework")
